@@ -1,0 +1,27 @@
+.inmueblesgrandes{
+    margin-top: 100px;    
+    background: rgba(228, 228, 228, 0.74);
+    position: relative;
+}
+.fila {
+    background: red;
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+}
+.columna1{
+    background: green;
+}
+.columna2{
+    background: green;
+}
+.columna3{
+    background: green;
+}
+.columna4{
+    background: green;
+}
+.columna img{
+    width: 250px;
+    margin: 10px;
+}
