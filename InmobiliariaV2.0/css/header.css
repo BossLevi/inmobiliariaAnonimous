@@ -1,0 +1,44 @@
+header {
+    background-color: #1e2d3f;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 50px;
+
+}
+
+nav a:hover{
+    background: #e05555;
+    border-radius: 10px;
+    transition: all 800ms ease;
+}
+    
+
+header #logo{
+    float: left;
+
+}
+
+header nav{
+    float: right;
+    margin: 10px;
+}
+
+
+header a{
+    color: #f1e8e0;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 20px;
+}
+
+header li{
+    display: inline;
+    text-transform: uppercase;
+}
+
+#logo a{
+    color: #255c99;
+    font-size: 40px;
+}
+
