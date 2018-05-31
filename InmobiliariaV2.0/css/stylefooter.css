@@ -1,0 +1,56 @@
+.info-container{
+    width: 100%;
+    background: #f2f2f2;
+    font-family: Raleway;
+}
+footer{
+    width: 100%; 
+}
+.footer-container{
+    width: 100%;
+    background: #d4d4f3;
+    color:rgb(5, 5, 5);
+    font-size: 15px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+.footer-container img{
+    float: left;
+    width: 15px;
+    margin: 2px;
+}
+
+.footer-container h2{
+    font-family: "Segoe UI";
+}
+.footer-columna{
+        
+    padding: 0.6em;
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+   
+}
+.footer-copy{
+    width: 100%;
+    padding: 2px;   
+    text-align:center; 
+}
+
+.fa-envelope{
+    
+    float: left;
+    margin:2px;
+}
+.fa-map{
+    
+    float:left;
+    margin: 2px;
+    width: 15%
+}
+.fa-phone{
+    
+    float:left;  
+    margin: 2px;
+    width: 25%;  
+}
