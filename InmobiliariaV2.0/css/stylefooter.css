@@ -8,11 +8,12 @@ footer{
 }
 .footer-container{
     width: 100%;
-    background: #d4d4f3;
+    background: #1e2d3f;
     color:rgb(5, 5, 5);
     font-size: 15px;
     overflow: hidden;
-    opacity: 0.9;
+    color: white;
+    
 }
 .footer-container img{
     float: left;

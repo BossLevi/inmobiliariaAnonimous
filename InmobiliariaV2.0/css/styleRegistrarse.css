@@ -1,0 +1,21 @@
+fieldset{
+    margin: 1em;
+    padding: 0.2em;
+    border-radius: 1em;
+    overflow: hidden;
+    background: #1e2d3f;
+    color: #0c0101;      
+    font-size: 20px;
+    }
+.login{
+    padding: 2em;   
+    color: #f8eeee;
+    border-radius: 1em;
+    
+}
+.login{
+    padding: 2em;
+}
+.login .regacc{
+    width: 98%;
+}

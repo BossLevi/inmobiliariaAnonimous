@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-print{
+    display: none;
+}
+section{
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+    background: rgb(243, 243, 243);
+}
+.img1des,
+.img2des,
+.img3des{
+    width: 70%;
+    height: 150px;
+    float: left; 
+    margin: 10px;
+    margin-left: 50px;
+     
+} 
+@media (min-width:500px)
+{    
+    .content-images{
+        width: 100%;
+        margin: auto;
+        border-radius: 0.6em;
+        background: none;       
+    }
+    .img1des,
+    .img2des,
+    .img3des{
+        width: 80%;
+        height: 250px;
+        float: left; 
+        margin: 10px;
+        margin-left: 50px;
+         
+    } 
+    
+    
+}
+
+@media (min-width:800px)
+{    
+    .content-images{
+        width: 80%;
+        margin: auto;
+        border-radius: 0.6em;
+        background: none;       
+    }
+    .img1des,
+    .img2des,
+    .img3des{
+        width: 60%;
+        height: 250px;
+        float: left; 
+        margin: 10px;
+        margin-left: 140px;   
+    } 
+    
+    
+}
+@media (min-width:1190px)
+{    
+    .content-images{
+        width: 100%;
+        margin: auto;
+        border-radius: 0.6em;
+        background: none;       
+    }
+    .img1des,
+    .img2des,
+    .img3des{
+        width: 30%;
+        height: 250px;
+        float: left; 
+        margin: 10px;
+        margin-left: 25px;   
+    } 
+    
+    
+}
+.content-images{
+    
+    margin: auto;
+    border-radius: 0.6em;
+    background:rgb(221, 221, 221);
+  border: 0px solid ;
+}
+
+.img1des{
+    background-image: url('../imagenes/5.jpg');   
+    background-size:100% 100%;  
+    
+}
+.img2des{
+    background-image: url('../imagenes/home3.0.jpg');
+    background-size:100% 100%; 
+}
+.img3des{
+    background-image: url('../imagenes/home6.jpeg');
+    background-size:100% 100%; 
+}
+
+.caracteristicas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+table{
+    text-align: left;
+    width: 80%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color:#003464; 
+    color:white;
+}
