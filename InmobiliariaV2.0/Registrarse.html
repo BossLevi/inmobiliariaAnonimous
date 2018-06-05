@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registrarse</title>
-    <link rel="stylesheet" href="css/styleRegistrarse.css">
+    <title>Registrarse</title>    
+    
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/stylefooter.css">
+    <link rel="stylesheet" href="css/styleRegistrarse.css">
+
 </head>
 <body>
     <header>
@@ -14,19 +16,21 @@
             <div id="logo"><a href="index.html">Anonimous Team</a> </div>
                 <nav> 
                     <ul> 
-                       <li><a href="ventas.html">Venta</a></li> 
-                       <li><a href="#">Alquiler</a></li>
-                       <li><a href="#">Asistente Personal</a></li> 
-                       <li><a href="Iniciarsesion.html">Iniciar Sesion</a></li> 
-                       <li><a href="registrarse.html">Registrarse</a> </li>                                                    
+                        <li><a class="col1head" href="index.html">Inicio</a></li>
+                       <li><a class="col2head" href="ventas.html">Venta</a></li> 
+                       <li><a class="col3head" href="#">Alquiler</a></li>
+                       <li><a class="col4head" href="#">Asistente Personal</a></li> 
+                       <li><a class="col5head" href="Iniciarsesion.html">Iniciar Sesion</a></li> 
+                       <li><a class="col6head" href="registrarse.html">Registrarse</a> </li>                                                    
                     </ul>
                 </nav>
         </div>  
     </header>
-        <div class="bgimagen"></div>
-     <section class="content wrapper">
-             <h1>Crear Cuenta</h1>
-                 <fieldset style="width: 25%">
+        
+     <section class="contentreg">         
+             
+                 <fieldset class="regfield">
+                     <h1>Crear Cuenta</h1>
                      <form class="login">     
                          <p>
                              <label for="Name">Nombre</label><br>
@@ -62,7 +66,7 @@
                          <p>                                                           
                              <input id="check" name="useraccept" type="checkbox" required/>Acepta nuestras condiciones de uso, nuestro aviso de privacidad
                          </p>     
-                             <input type="submit" value="Crear cuenta">                           
+                             <input class="btnreg" type="submit" value="Crear cuenta">                           
                      </form>
                  </fieldset>
              <br>

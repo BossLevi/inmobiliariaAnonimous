@@ -4,44 +4,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styleRegistrarse.css">
+    
+    <link rel="stylesheet" href="css/styleRegistrarse.css">    
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/stylefooter.css">
 </head>
 <body>
     <header>
-         <div class="wrapper">
+        <div class="wrapper">
             <div id="logo"><a href="index.html">Anonimous Team</a> </div>
-                 <nav> 
-                     <ul> 
-                       <li><a href="ventas.html">Venta</a></li> 
-                       <li><a href="#">Alquiler</a></li>
-                       <li><a href="#">Asistente Personal</a></li> 
-                       <li><a href="Iniciarsesion.html">Iniciar Sesion</a></li> 
-                       <li><a href="registrarse.html">Registrarse</a> </li>                                                    
-                     </ul>
-                 </nav>
-         </div>  
+                <nav> 
+                    <ul> 
+                        <li><a class="col1head" href="index.html">Inicio</a></li>
+                       <li><a class="col2head" href="ventas.html">Venta</a></li> 
+                       <li><a class="col3head" href="#">Alquiler</a></li>
+                       <li><a class="col4head" href="#">Asistente Personal</a></li> 
+                       <li><a class="col5head" href="Iniciarsesion.html">Iniciar Sesion</a></li> 
+                       <li><a class="col6head" href="registrarse.html">Registrarse</a> </li>                                                    
+                    </ul>
+                </nav>
+        </div>  
     </header>
-    <div class="bgimagen"></div>
-     <section class="content wrapper">
-         <h1>Iniciar Sesion</h1>
-            <fieldset style="width: 30%" >
-                 <form class="login">                                 
-                     <p>
-                         <label for="email">Correo</label><br>                                  
-                         <input class="regacc" name="useremail" type="email" placeholder="ejm@hotmail.com" required/>
-                     </p>
-                     <p>
-                         <label for="pass">Contraseña</label><br>
-                         <input class="regacc" name="usepass" type="password" placeholder="Ingrese su Contraseña" required/>
-                     </p>
-                     <br>                 
-                         <input type="submit" value="Iniciar Sesion">                           
+    <section class="contentreg">         
+            
+                <fieldset class="regfield">
+                    <h1>Iniciar Sesion</h1>
+                    <form class="login">     
+                                     
+                        <p>
+                            <label for="email">Correo</label><br>                                  
+                            <input class="regacc" name="useremail" type="email" placeholder="Digite su Correo Electronico" required/>
+                        </p>                       
+                        <p>
+                            <label for="pass">Contraseña</label><br>                                  
+                            <input class="regacc" name="userpass" type="password" placeholder="Digite su Contraseña" required/>
+                        </p>                          
+                            <input class="btnini" type="submit" value="Crear cuenta">                           
                     </form>
-            </fieldset>
-     </section>
-     <footer>
+                </fieldset>
+            <br>
+    </section>
+        
+    <footer>
         <div class="footer-container">
             <div class="footer-columna">
                 <h2>Contactos</h2>
@@ -67,6 +71,6 @@
                 </div>
             </div>
         </div>
-</footer>               
+    </footer>               
 </body>
 </html>
