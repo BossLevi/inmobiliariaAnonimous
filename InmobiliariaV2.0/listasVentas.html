@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablasventas.css">
+    <script type="text/javascript" src="js/llenardatosdt.js"></script>
+    
 </head>
 <body>
+    <!--Creando el header -->
     <header>
         <div class="wrapper">
             <div id="logo">
@@ -26,6 +33,117 @@
         </div>  
     </header>
 
+    <fieldset class="tb-ventas">
+        <div class="content-form">
+        <fieldset class="field-list">    
+            <form>
+                <div class="column1">
+                        <div class="txt1">
+                            <select name="ejm"  id="sltipo">
+                                <option disabled selected hidden>Tipo de Propiedad</option>
+                                <option  >Todos</option>                                
+                                <option  >Casa</option>
+                                <option  >Despacho</option>
+                                <option  >Edificio</option>
+                                <option  >Local Comercial</option>
+                                <option  >Oficina</option>
+                                <option  >Departamento</option>
+                                <option  >Terreno Urbano</option>
+                            </select>
+                        </div>      
+                    </div>
+                <div class="column2">
+                    <div class="txt1">
+                        <select name="s"  id="slprov">
+                        <option disabled selected hidden >Provincia-Ciudad</option>
+                        <option  >Todos</option>                                
+                        <option  >Quillacollo</option>
+                        <option  >Sacaba</option>
+                        <option  >Tiquipalla</option>
+                        <option  >Colcapirhua</option>
+                        </select>
+                    </div>           
+                                
+                    </div>
+                    <div class="column3">
+                            <div class="txt1">
+                                <select name="lol"  id="slzona">
+                                    <option disabled selected hidden>Zona</option>                                
+                                    <option  >Todos</option>
+                                    <option  >Alalay</option>                                
+                                    <option  >America Oeste</option>
+                                    <option  >Aranjuez</option>
+                                    <option  >Aranjuez Alto</option>
+                                    <option  >Beijin</option>
+                                    <option  >Cala Cala</option>
+                                    <option  >Central</option>
+                                    <option  >Chimba</option>                                
+                                    <option  >Chiquicollo</option>                                
+                                    <option  >Coña coña</option>
+                                    <option  >Colquiri Norte</option>
+                                    <option  >Colquiri Sud</option>
+                                    <option  >Condebamba</option>
+                                    <option  >Tiquipaya</option>
+                                    <option  >Blanco Galindo</option>                                
+                                </select>
+                            </div>    
+                    </div>
+                    <div class="column4">
+                            <div class="txt1">
+                                    <input type="text" placeholder="Precio desde" id="txtprice">
+                                </div> 
+                    </div>
+                    
+                    <div class="column6">
+                        <div class="txt1">
+                            <input id="btn-list" type="button" value="Buscar" onclick="buscartarea()" >
+                        </div>
+                    </div>    
+                    <div class="column7">
+                        <div class="txt1">
+                            <input id="btn-guardar" type="button" value="Guardar" onclick="agregarTarea();">
+                        </div>   
+                    </div>
+            </form>  
+        </fieldset> 
+        </div>
+        <div class="content-tb">
+            <table id="tabla">
+                <tr>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                </tr>
+                <tr>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                </tr>
+                <tr>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qwwe</td>
+                    <td>qweqwe</td>
+                </tr>
+                <tr>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                </tr>
+                <tr>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                    <td>qweqwe</td>
+                </tr>
+
+            </table>
+        </div>
+    </fieldset>
+
     <footer>
         <div class="footer-container">
             <div class="footer-columna">
@@ -42,14 +160,13 @@
                 &copy; 2018, Todos los derechos reservados  AnonimousTeam
                 </div>
                 <div class="footer-redes">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twiter"></a>
-                        <a href="#" class="fa fa-youtube-play"></a>
-                        <a href="#" class="fa fa-github"></a>
-                    </div>
-                
-           
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twiter"></a>
+                    <a href="#" class="fa fa-youtube-play"></a>
+                    <a href="#" class="fa fa-github"></a>
+                </div>    
         </div>
     </footer> 
+    <script type="text/javascript" src="js/llenardatosdt.js"></script>
 </body>
 </html>

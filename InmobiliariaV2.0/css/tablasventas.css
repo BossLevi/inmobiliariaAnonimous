@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tb-ventas{
+    width: 80%;
+    height: 100%;
+    border: 1;
+    margin: auto;
+}
+.content-form{
+    margin-top: 200px;
+    width: 100%;
+}
+
+.column1
+{
+    width: 100%;
+    float: left;
+}
+.column2
+{
+    width: 100%;
+    float: left;
+}
+.column3
+{
+    width: 100%;
+    float: left;
+}
+.column4
+{
+    width: 100%;
+    float: left;
+}
+.column6{
+    width: 20%;
+    float: left;
+    height: 60px; 
+    
+}
+
+#sltipo,
+#slzona,
+#slprov{
+    width: 100%;
+    height: 30px;
+}
+.column7{
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 60px; 
+    
+    margin-top: -10px;
+}
+
+#btn-guardar{
+    float: left;
+    width: 80%;
+    background: orange;
+    height: 30px;
+    margin-top: 10px;    
+}
+
+
+.field-list{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    padding: 10px;
+}
+.txt1 {
+    width: 90%;
+    float: left;   
+    margin: 10px;
+}
+#btn-list{
+    float: left;
+    width: 100%;
+    
+    background: orange;
+}
+
+.content-tb{
+    margin-top: 100px;
+}
+table{
+    text-align: left;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td{
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color:#003464; 
+    color:white;
+}
