@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    
+    position: relative;
   }
 .info-container{
     width: 100%;
@@ -9,7 +9,7 @@ html {
 }
 footer{
     background-color: black;    
-    bottom: 0;
+    bottom: 100%;
     width: 100%;   
     color: white;
     
@@ -41,9 +41,10 @@ footer{
    
 }
 .footer-copy{
-    width: 100%;
-    padding: 2px;   
-    text-align:center; 
+    width: 100%;   
+    float: left;
+    text-align: center;
+
 }
 
 .fa-envelope{
