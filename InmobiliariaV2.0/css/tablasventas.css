@@ -81,7 +81,13 @@
     
     background: orange;
 }
-
+#btn-mostrar{
+    float: left;
+    width: 80%;
+    background: orange;
+    height: 30px;
+    margin-top: 10px;  
+}
 .content-tb{
     margin-top: 100px;
 }
